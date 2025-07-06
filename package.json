@@ -1,0 +1,33 @@
+{
+  "name": "fac3less-client",
+  "version": "1.0.0",
+  "description": "Fac3less Client - AI-powered video generation tool",
+  "private": false,
+  "scripts": {
+    "serve": "node serve.js",
+    "serve:auto": "npx http-server",
+    "serve:8080": "npx http-server -p 8080",
+    "serve:8081": "npx http-server -p 8081",
+    "serve:3000": "npx http-server -p 3000",
+    "preview": "open http://localhost:8080"
+  },
+  "keywords": [
+    "video-generation",
+    "ai",
+    "workflow",
+    "fac3less"
+  ],
+  "author": "Fac3less Team",
+  "license": "MIT",
+  "homepage": "https://fac3less.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KenKaiii/fac3less-client"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
